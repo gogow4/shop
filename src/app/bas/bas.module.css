@@ -1,0 +1,41 @@
+.a {
+    width: 100vw;
+    height: 90vh;
+    position: relative;
+    color: white;
+}
+.a img {
+    width: 100%;
+    height: 121%;
+}
+.b {
+    position: absolute;
+    top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+    height: 100%;
+}
+.a1 {
+    width: 15%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-left: 2px solid black;
+}
+
+
+.a2 {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    border-left:2px solid black ;
+}

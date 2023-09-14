@@ -1,0 +1,32 @@
+.a {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    /* flex-direction: column; */
+    background-color: red;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.a2 {
+    display: flex;
+    gap: 20px;
+}
+.dv {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 5px;
+    
+}
+.dv:hover:before {
+    position: absolute;
+    border: solid 2px;
+    
+}
+/* :hover .a2 { */
+    /* background-color: black; */
+/* } */
